@@ -1,0 +1,258 @@
+legend {
+	border-bottom: 1px solid #dadada !important	;
+	display: block;
+	font: 19px 'FranklinGothic';
+	margin-bottom: 20px;
+	max-width: 455px;
+	text-transform: uppercase;
+	position: relative;
+	width: 100%;
+}
+
+.form-col {
+	width: 455px;
+}
+	.form-col.r {
+		width: 430px;
+	}
+
+.form-row {
+	margin-top: 18px;
+}
+
+.order-form .submit-row {
+	text-align: right;
+}
+
+.text-row {
+	color: #4c4c4c;
+	font: 11px 'PTSans';
+}
+	.text-row strong {
+		color: #7f7f7f;
+		font-size: 13px;
+		font-weight: normal;
+	}
+	.text-row em {
+		color: #dc3d68;
+	}
+
+	.form-row.wide {
+		width: 600px;
+	}
+
+fieldset {
+	margin: 0 0 25px !important	;
+	padding: 0 !important;
+}
+
+input[type=text], input[type=password], textarea {
+	border-radius: 5px;
+	border: 1px solid #ededed;
+	height: 24px;
+	line-height: 24px;
+	padding: 4px 13px;
+}
+textarea {
+	height: 100px;
+}
+
+.order-form input, .order-form textarea, .order-form select {
+	font: italic 11px 'PTSans';
+}
+
+input.big {
+	width: 430px;
+}
+
+input.small {
+	width: 113px;
+}
+
+label {
+	font: 12px 'PTSans';
+	text-transform: uppercase;
+}
+
+.form-hint {
+	color: #7f7f7f;
+	font: italic 11px 'PTSans';
+}
+
+.input-wrap {
+	display: inline-block;
+	*display: inline;
+	margin-left: 13px;
+	position: relative;
+	zoom: 1;
+}
+
+.input-wrap:first-child {
+	margin-left: 0;
+}
+
+button, a.btn {
+	background: #dc3d68;
+	border: none;
+	border-radius: 3px;
+	color: #fff !important;
+	font: 12px 'Futuris' !important;
+	display: inline-block;
+	*display: inline;
+	line-height: 19px !important;
+	text-align: center;
+	text-decoration: none;
+	min-width: 50px;
+	padding: 0 5px;
+	zoom: 1;
+}
+button:hover, a.btn:hover {
+	opacity: 0.9;
+}
+
+.input-radio-wrap {
+	width: 47%;
+}
+	.input-radio-wrap .price {
+		color: #4c4c4c;
+		font: 14px 'PTSans';
+		margin-top: 5px;
+		text-align: right;
+	}
+	
+
+.contacts-form {
+	margin-bottom: -230px;
+}
+	.contacts-form {
+		text-align: center;
+	}
+	.contacts-form label, .faq-form label {
+		color: #dc3d68;
+		font: 18px 'FranklinGothic';
+		display: block;
+		margin-bottom: 5px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.contacts-form input, .contacts-form textarea {
+		color: #b2b2b2;
+		font: 15px 'PTSans';
+		resize: none;
+	}
+	.contacts-form input {
+		width: 300px;
+	}
+	.contacts-form textarea {
+		height: 300px;
+		width: 400px;
+	}
+
+	.contacts-form .submit-row, .faq-form .submit-row {
+		margin-top: 25px;
+	}
+	.contacts-form button, .faq-form button {
+		border-radius: 6px;
+		color: #fff;
+		font: 18px 'Futuris' !important	;
+		padding: 5px 10px;
+		text-transform: uppercase;
+	}
+
+	.faq-form label {
+		text-align: left;
+	}
+	.faq-form textarea {
+		resize: none;
+		width: 415px;
+	}
+	.faq-form input {
+		margin-right: 0;
+		width: 187px;
+	}
+	.faq-form .submit-row {
+		text-align: right;
+	}
+
+.filter-form {
+	margin-top: 16px;
+}
+.filter-form input, .filter-form select {
+	background: #dc3d68;
+	border-radius: 0;
+	border: none;
+	color: #fff;
+	font: 9px 'FranklinGothic';
+	height: 21px;
+	line-height: 21px;
+	padding: 0 9px;
+	width: 122px;
+}
+.filter-form select {
+	padding-right: 0;
+	width: 140px;
+}
+
+
+
+.ads-item-friend-form {
+  margin-right: 12px;
+  text-align: right;
+}
+  .ads-item-friend-form input {
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    height: 20px;
+    padding: 0 7px;
+    width: 112px;
+  }
+  .ads-item-friend-form button {
+    background: #de3d67;
+    border-radius: 2px;
+    border: none;
+    color: #fff;
+    font-size: 10px;
+    height: 14px;
+    margin-top: 5px;
+    width: 47px;
+  }
+
+.register-form {
+	color: #fff;
+	font: 10px 'PTSans';
+	margin: -15px auto 0;
+	text-align: center;
+	width: 300px;
+}
+  .register-form-title {
+    color: #b2b2b2;
+    font: italic 12px 'PTSans';
+    margin-bottom: 10px;
+  }
+
+  .register-form .form-row {
+  	margin-top: 3px;
+  }
+
+  .register-form input[type=text] {
+  	border: 1px solid #000;
+  	font: italic 12px 'PTSans';
+  	height: 20px;
+  	line-height: 20px;
+  	margin: 0;
+  	width: 120px;
+  }
+  .register-form input.big {
+  	width: 272px;
+  }
+
+  .register-form button {
+  	font: 13px 'Futuris';
+  	padding: 2px 10px;
+  }
+
+  .register-form .soc-wrap {
+  	margin-left: 107px;
+  }
