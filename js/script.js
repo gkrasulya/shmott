@@ -17,4 +17,10 @@
 
 		return false;
 	});
+
+	if ($().mCustomScrollbar) {
+		$('.js-custom-scrollbar').mCustomScrollbar({
+
+		})
+	}
 })();

@@ -1,0 +1,32 @@
+.popup {
+	background: #fff;
+	padding: 25px 0;
+	width: 500px;
+}
+
+.popup-title {
+	color: #403f38;
+	font: 43px 'Bodoni';
+	text-align: center;
+}
+
+.popup-thanks-title	{
+	border-bottom: 1px solid #ccc;
+	padding: 0 10px;
+}
+
+.popup-thanks-message {
+	background: url(../images/sprt.png) no-repeat -278px -558px;
+	color: #fff;
+	font: 17px 'FranklinGothic';
+	height: 53px;
+	margin: 0 auto;
+	padding-top: 11px;
+	text-align: center;
+	width: 367px;
+}
+
+
+.popup-back-link-wrap {
+	margin: 60px 0 0 200px !important	;
+}

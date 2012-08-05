@@ -1,4 +1,5 @@
 @import 'forms.css';
+@import 'popup.css';
 
 @font-face {
   font-family: 'PTSans';
@@ -105,6 +106,14 @@ body {
   height: 631px;
 }
 
+.page-header-enter-link {
+  color: #fff;
+  font: 12px 'Futuris';
+  position: absolute;
+  top: 81px;
+  right: 39px;
+}
+
 .register-wrap {
   background-image: -webkit-radial-gradient(circle, #414143, #231f20);
   background-image: -moz-radial-gradient(circle, #414143, #231f20);
@@ -119,6 +128,31 @@ body {
   top: 118px;
   width: 400px;
 }
+
+.enter-wrap {
+  background-image: -webkit-radial-gradient(circle, #414143, #231f20);
+  background-image: -moz-radial-gradient(circle, #414143, #231f20);
+  background-image: -o-radial-gradient(circle, #414143, #231f20);
+  background-image: -ms-radial-gradient(circle, #414143, #231f20);
+  background-image: radial-gradient(circle, #414143, #231f20);
+  border-radius: 10px;
+  height: 165px;
+  position: absolute;
+  right: 39px;
+  top: 117px;
+  width: 220px;
+  -webkit-box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+  .enter-wrap-arr {
+    background: url(../images/sprt.png) no-repeat -513px -46px;
+    height: 8px;
+    position: absolute;
+    width: 19px;
+    top: -8px;
+    right: 20px;
+  }
+
   .register-wrap-logo {
     background: url(../images/sprt.png) no-repeat -310px -440px;
     display: block;
@@ -239,15 +273,6 @@ body {
     height: 9px;
     width: 10px;
   }
-
-label.error {
-  color: #c50000;
-  font: 12px 'PTSans';
-  left: 0;
-  min-width: 300px;
-  position: absolute;
-  top: 40px;
-}
 
 .page-footer {
   background: #000;
@@ -399,6 +424,10 @@ h1.blog.custom:before {
   margin-bottom: 10px;
   top: -10px;
   width: 70px;
+}
+h1.moneyback:before {
+  background-position: -482px -112px;
+  top: -10px;
 }
 
 .heading-aside {
@@ -994,11 +1023,37 @@ h1.blog.custom:before {
     margin-top: 20px;
   }
 
+.moneyback-block-left {
+  width: 300px;
+}
+
+.moneyback-block-right {
+  margin-right: 40px;
+  width: 480px;
+}
+
+.moneyback-text {
+  height: 220px;
+  overflow: auto;
+  margin-top: 15px;
+}
+  .moneyback-text p {
+    font: 14px 'PTSans';
+    margin: 5px 0;
+  }
+
+.content-block-title {
+  border-bottom: 1px solid #ccc;
+  font: 19px 'FranklinGothic';
+  padding-bottom: 3px;
+}
+
 /* ==|== non-semantic helper classes ======================================== */
 
 .ml10 { margin-left: 10px !important; }
 .ml15 { margin-left: 15px !important; }
 .ml20 { margin-left: 20px !important; }
+.ml50 { margin-left: 50px !important; }
 
 .mt0 { margin-top: 0 !important; }
 .mt10 { margin-top: 10px !important; }

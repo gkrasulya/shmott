@@ -18,6 +18,7 @@ legend {
 
 .form-row {
 	margin-top: 18px;
+	position: relative;
 }
 
 .order-form .submit-row {
@@ -232,11 +233,11 @@ button:hover, a.btn:hover {
     margin-bottom: 10px;
   }
 
-  .register-form .form-row {
+  .register-form .form-row, .enter-form .form-row {
   	margin-top: 3px;
   }
 
-  .register-form input[type=text] {
+  .register-form input[type=text], .enter-form input[type=text] {
   	border: 1px solid #000;
   	font: italic 12px 'PTSans';
   	height: 20px;
@@ -256,3 +257,105 @@ button:hover, a.btn:hover {
   .register-form .soc-wrap {
   	margin-left: 107px;
   }
+
+  .enter-form {
+  	color: #fff;
+	font: 10px 'PTSans';
+  	margin-top: 15px;
+  	text-align: center;
+  }
+  .enter-form input[type=text] {
+  	width: 162px;
+  }
+  	.enter-form .soc-wrap {
+  		margin-left: 70px;
+  	}
+
+  .enter-form-forgot-pass-link {
+  	color: #aaa;
+  	font: 7px 'PTSans';
+  	position: absolute;
+  	right: 15px;
+  	bottom: -2px;
+  	margin-bottom: -15px;
+  }
+
+label.error {
+  color: #c50000;
+  font: 12px 'PTSans';
+  left: 0;
+  min-width: 300px;
+  position: absolute;
+  top: 40px;
+}
+
+label.custom-error {
+	background: #302e2f;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	color: #fff;
+	font: 9px 'PTSans';
+	line-height: 150%;
+	padding: 8px 20px 8px 8px;
+	position: absolute;
+	left: -95px;
+	top: -1px;
+}
+	label.custom-error.right {
+		left: auto;
+		right: -147px;
+	}
+
+	label.custom-error .right-arr, label.custom-error .left-arr {
+		background: url(../images/sprt.png?123) no-repeat -521px -69px;
+		content: '.';
+		height: 17px;
+		text-indent: -9999px;
+		margin-top: -9px;
+		top: 50%;
+		right: -9px;
+		position: absolute;
+		width: 11px;
+	}
+	label.custom-error .left-arr {
+		background-position: -499px -69px;
+		left: -11px;
+		right: auto;
+	}
+
+	label.custom-error .remove {
+		background: url(../images/sprt.png) -489px -23px no-repeat;
+		height: 9px;
+		position: absolute;
+		top: 9px;
+		right: 6px;
+		width: 10px;
+	}
+
+.moneyback-form {
+	color: #444;
+	font: 11px 'PTSans';
+}
+	.moneyback-form label {
+		color: #444;
+		font: italic 11px 'PTSans';
+		text-transform: none;
+		width: 100px;
+	}
+	.moneyback-form textarea {
+		resize: none;
+		width: 155px;
+	}
+
+	.moneyback-form .submit-row {
+		text-align: right;
+	}
+	.moneyback-form button {
+		font: 14px 'Futuris' !important;
+		padding: 5px 10px;
+		text-transform: uppercase;
+	}
+
+a.moneyback-form-change-quantity {
+	color: #444;
+}
