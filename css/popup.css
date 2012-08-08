@@ -30,3 +30,75 @@
 .popup-back-link-wrap {
 	margin: 60px 0 0 200px !important	;
 }
+
+
+
+.popup-edit {
+	background: none;
+	padding-top: 50px;
+}
+
+.popup-edit-inner-wrap {
+	background: #fffadf;
+}
+.popup-edit-inner {
+	border-top: 1px solid transparent;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	width: 270px;
+}
+
+.popup-edit-avatar {
+	margin: -40px auto 0;
+	text-align: center;
+}
+	.popup-edit-avatar-image {
+		height: 91px;
+		margin: 0 auto;
+		/*overflow: hidden;*/
+		position: relative;
+		width: 91px;
+	}
+	.popup-edit-avatar-link {
+		color: #666;
+		font: italic 9px 'PTSans';
+	}
+
+.popup-sizes {
+	padding-left: 30px;
+	width: 330px;
+}
+
+.popup-sizes-title {
+	border-bottom: 1px solid #aaa;
+	color: #000;
+	font: 27px 'FranklinGothic';
+}
+
+.popup-sizes-inner {
+	width: 300px;
+}
+
+.popup-sizes-item {
+	color: #4c4c4c;
+	font: 13px 'PTSans';
+	margin-top: 7px;
+}
+.popup-sizes-item .val1 {
+	width: 130px;
+}
+
+
+.popup-cart-inner {
+	margin: 0 30px;
+}
+.popup-cart-title {
+	font: 19px 'Franklin Gothic';
+}
+.popup-cart .reserve-time {
+	margin: 15px 0 -40px 25px;
+}
+
+.popup-cart-return .cart-product-item-line {
+	left: 70px;
+}

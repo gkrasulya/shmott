@@ -359,3 +359,65 @@ label.custom-error {
 a.moneyback-form-change-quantity {
 	color: #444;
 }
+
+.popup-edit-form label {
+	font: italic 11px 'PTSans';
+	color: #7f7f7f;
+	line-height: 20px;
+	text-transform: none;
+	width: 98px;
+}
+
+.popup-edit-form input {
+	border: 1px solid #ededed;
+	color: #7f7f7f;
+	font: 12px 'FranklinGothic';
+	height: 20px;
+	line-height: 20px;
+	padding: 0 10px;
+	width: 115px;
+}
+	.popup-edit-form input.small {
+		width: 80px;
+	}
+	.popup-edit-form input.tiny {
+		text-align: center;
+		padding: 0 3px;
+		width: 24px;
+	}
+.popup-edit-form legend {
+	border-bottom: 1px solid #b2b2b2;
+	color: #000;
+	font: 19px 'FranklinGothic';
+}
+
+.popup-edit-form .submit-row {
+	text-align: center;
+}
+	.popup-edit-form button, form button.big {
+		font: 14px 'Futuris' !important	;
+		margin-left: 10px;
+		padding: 5px 15px;
+	}
+	.popup-edit-form .cancel-link, form .submit-alternative {
+		color: #666 !important;
+		font: 14px 'Futuris';
+		margin-right: 10px;
+	}
+
+
+.popup-edit-form-errors .error {
+	color: #c50000;
+	font: 11px 'PTSans';
+	text-align: center;
+	position: relative;
+}
+	.popup-edit-form-errors .error:after {
+		background: url(../images/sprt.png) -490px -24px no-repeat;
+		content: '.';
+		display: inline-block;
+		height: 9px;
+		margin-left: 5px;
+		text-indent: -9999px;
+		width: 10px;
+	}

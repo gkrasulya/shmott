@@ -19,11 +19,51 @@
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/tofsla_forms.css" />
   <link rel="stylesheet" href="css/jquery.fancybox.css" />
-
-  <script src="http://modernizr.com/downloads/modernizr-2.5.3.js"></script>
+  <link rel="stylesheet" href="css/popup.css" />
 </head>
 
 <body>
+  <div class="popup popup-sizes" id="popup2" style="display: none">
+    <div class="popup-sizes-inner">
+      <div class="popup-sizes-title c">
+        <span class="l">US (CHEST)</span>
+        <span class="r">MAN ALP</span>
+      </div>
+
+      <div class="popup-sizes-list">
+        <div class="popup-sizes-item c">
+          <span class="val1 l">33</span>
+          <span class="val2 l">XXS</span>
+          <span class="val3 r">33</span>
+        </div> <!-- /.popup-sizes-item -->
+        <div class="popup-sizes-item c">
+          <span class="val1 l">33</span>
+          <span class="val2 l">XXS</span>
+          <span class="val3 r">33</span>
+        </div> <!-- /.popup-sizes-item -->
+        <div class="popup-sizes-item c">
+          <span class="val1 l">33</span>
+          <span class="val2 l">XXS</span>
+          <span class="val3 r">33</span>
+        </div> <!-- /.popup-sizes-item -->
+        <div class="popup-sizes-item c">
+          <span class="val1 l">33</span>
+          <span class="val2 l">XXS</span>
+          <span class="val3 r">33</span>
+        </div> <!-- /.popup-sizes-item -->
+        <div class="popup-sizes-item c">
+          <span class="val1 l">33</span>
+          <span class="val2 l">XXS</span>
+          <span class="val3 r">33</span>
+        </div> <!-- /.popup-sizes-item -->
+        <div class="popup-sizes-item c">
+          <span class="val1 l">33</span>
+          <span class="val2 l">XXS</span>
+          <span class="val3 r">33</span>
+        </div> <!-- /.popup-sizes-item -->
+      </div> <!-- /.popup-sizes-list -->
+    </div>
+  </div> <!-- /.popup -->
 
   <div class="page-wrapper">
     <header class="page-header">
@@ -275,6 +315,12 @@
   <script defer src="js/libs/tofsla_forms.js"></script>
 
   <script defer src="js/script.js"></script>
+
+  <script type="text/javascript">
+    $.fancybox('#popup2', {
+      closeBtn: false
+    });
+  </script> 
 
   <!--[if lt IE 7 ]>
     <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>

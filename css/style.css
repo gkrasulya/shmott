@@ -274,6 +274,19 @@ body {
     width: 10px;
   }
 
+  .icon-legend-contacts {
+    background-position: -564px -194px;
+    height: 18px;
+    margin-right: 10px;
+    width: 20px;
+  }
+  .icon-legend-home {
+    background-position: -564px -217px;
+    height: 17px;
+    margin-right: 10px;
+    width: 22px;
+  }
+
 .page-footer {
   background: #000;
   color: #fff;
@@ -1048,6 +1061,12 @@ h1.moneyback:before {
   padding-bottom: 3px;
 }
 
+.title-underline {
+  border-bottom: 1px solid #bbb;
+  margin: 3px 0 10px;
+  width: 50%;
+}
+
 /* ==|== non-semantic helper classes ======================================== */
 
 .ml10 { margin-left: 10px !important; }
@@ -1056,6 +1075,7 @@ h1.moneyback:before {
 .ml50 { margin-left: 50px !important; }
 
 .mt0 { margin-top: 0 !important; }
+.mt5 { margin-top: 5px !important; }
 .mt10 { margin-top: 10px !important; }
 .mt15 { margin-top: 15px !important; }
 .mt20 { margin-top: 20px !important; }

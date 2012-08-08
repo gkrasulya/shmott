@@ -23,6 +23,7 @@ button::-moz-focus-inner {border : 0px;}
 	zoom:1;
 	*display: inline;
 }	/* IE6, IE7 hack */
+
 .tfSelectWrapper div{
 	min-height: 21px;
 }
@@ -53,16 +54,17 @@ button::-moz-focus-inner {border : 0px;}
 	right: 0px;
 	width: 19px;
 }
+
 .tfSelectWrapper ul {
 	-ms-overflow-x: hidden;
 	overflow-x: hidden;
 	min-height:0px;
 	max-height:108px;
+	position: absolute;
+	top: 20px;
 	/* width: 127px;
 	-- set this if you change please_CalculateSelectWidth to "false" */
 }
-
-* html .tfSelectWrapper ul { height: 108px; } /* IE6 hack */
 
 .tfSelectWrapper ul li{
 	background:none !important;
@@ -83,6 +85,39 @@ button::-moz-focus-inner {border : 0px;}
 	text-align:left;
 	text-decoration: none;
 }
+
+
+.popup-edit-form .tfSelectWrapper {
+	background: #fff;
+	border-radius: 5px;
+	border: 1px solid #ededed;
+	left: -13px;
+	position: relative;
+	width: 100px;
+}
+.popup-edit-form .tfSelectWrapper div span {
+	background: none;
+	color: #666;
+	font: 12px 'FranklinGothic';
+	line-height: 20px;
+	height: 20px;
+}
+.popup-edit-form .tfSelectWrapper div a {
+	background: url(../images/sprt.png) no-repeat -466px -83px;
+}
+.popup-edit-form .tfSelectWrapper ul, .popup-edit-form .tfSelectWrapper li {
+	margin: 0;
+	padding: 0;
+}
+
+.popup-edit-form .tfSelectWrapper ul a {
+	display: block;
+	margin-left: 0 !important	;
+	width: 100px !important	;
+}
+
+
+* html .tfSelectWrapper ul { height: 108px; } /* IE6 hack */
 
 :root *> .tfSelectWrapper ul a:hover {background-color:#008df2; text-decoration:none; font-style:normal; color:#fff } /* everything but IE6, IE7, IE8 */
 .tfSelectWrapper ul a.hover {background-color:#008df2; font-style:normal; color:#fff} /* needed for IE6, IE7, IE8 */

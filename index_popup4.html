@@ -19,11 +19,95 @@
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/tofsla_forms.css" />
   <link rel="stylesheet" href="css/jquery.fancybox.css" />
-
-  <script src="http://modernizr.com/downloads/modernizr-2.5.3.js"></script>
+  <link rel="stylesheet" href="css/popup.css" />
 </head>
 
 <body>
+  <div class="popup popup-cart" id="popup2">
+    <div class="popup-cart-inner">
+      <div class="popup-cart-title">КОРЗИНА</div>
+      <div class="title-underline"></div>
+
+      <form class="order-form">
+        <div class="cart-product-list">
+          <div class="cart-product-item c">
+            <img src="images/p40.png" alt="" class="l">
+            <span class="l content">
+              <span class="number">1.</span>
+              <span class="title">Футболка River Island</span>
+              <span class="quantity">
+                ( <span class="quantity-figure">1</span>
+                <span class="quantity-arr-wrap">
+                  <a href="#" class="quantity-arr up"></a>
+                  <a href="#" class="quantity-arr down"></a>
+                </span> )
+              </span> <!-- /.quantity -->
+            </span> <!-- /.content -->
+
+            <a href="" class="r remove"></a>
+            <span class="price r">123 grn.</span>
+
+            <span class="cart-product-item-line"></span>
+          </div> <!-- /.cart-product-item -->
+
+          <div class="cart-product-item c">
+            <img src="images/p40.png" alt="" class="l">
+            <span class="l content">
+              <span class="number">1.</span>
+              <span class="title">Футболка River Island</span>
+              <span class="quantity">
+                ( <span class="quantity-figure">1</span>
+                <span class="quantity-arr-wrap">
+                  <a href="#" class="quantity-arr up"></a>
+                  <a href="#" class="quantity-arr down"></a>
+                </span> )
+              </span> <!-- /.quantity -->
+            </span> <!-- /.content -->
+
+            <a href="" class="r remove"></a>
+            <span class="price r">123 grn.</span>
+
+            <span class="cart-product-item-line"></span>
+          </div> <!-- /.cart-product-item -->
+
+          <div class="cart-product-item c">
+            <img src="images/p40.png" alt="" class="l">
+            <span class="l content">
+              <span class="number">1.</span>
+              <span class="title">Футболка River Island</span>
+              <span class="quantity">
+                ( <span class="quantity-figure">1</span>
+                <span class="quantity-arr-wrap">
+                  <a href="#" class="quantity-arr up"></a>
+                  <a href="#" class="quantity-arr down"></a>
+                </span> )
+              </span> <!-- /.quantity -->
+            </span> <!-- /.content -->
+
+            <a href="" class="r remove"></a>
+            <span class="price r">123 grn.</span>
+
+            <span class="cart-product-item-line"></span>
+          </div> <!-- /.cart-product-item -->
+        </div> <!-- /.cart-product-list -->
+
+        <div class="total-price">
+          <span class="discount">ВЫ ЭКОНОМИТЕ : 300 грн.</span>
+          <span class="price">/ 1245 grn.</span>
+        </div>
+
+        <div class="reserve-time">
+          <span class="title">Резерв:</span>
+          <time class="time">34:23</time>
+        </div>
+
+        <div class="form-row submit-row">
+          <a href="#" class="submit-alternative">ПРОДОЛЖИТЬ</a>
+          <button type="submit" class="big">КУПИТЬ</button>
+        </div>
+      </form> <!-- /.order-form -->
+    </div>
+  </div> <!-- /.popup -->
 
   <div class="page-wrapper">
     <header class="page-header">
@@ -275,6 +359,12 @@
   <script defer src="js/libs/tofsla_forms.js"></script>
 
   <script defer src="js/script.js"></script>
+
+  <script type="text/javascript">
+    $.fancybox('#popup2', {
+      closeBtn: false
+    });
+  </script> 
 
   <!--[if lt IE 7 ]>
     <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>

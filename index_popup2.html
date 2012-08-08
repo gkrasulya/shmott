@@ -19,11 +19,92 @@
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/tofsla_forms.css" />
   <link rel="stylesheet" href="css/jquery.fancybox.css" />
-
-  <script src="http://modernizr.com/downloads/modernizr-2.5.3.js"></script>
+  <link rel="stylesheet" href="css/popup.css" />
 </head>
 
 <body>
+  <div class="popup popup-edit" id="popup2">
+    <div class="popup-edit-inner-wrap">
+      <div class="popup-edit-inner">
+        <div class="popup-edit-avatar">
+          <div class="popup-edit-avatar-image">
+            <img src="images/p_round.png" alt="">
+            <div class="popup-edit-avatar-overlay"></div>
+          </div> <!-- /.popup-edit-avatar-image -->
+          <a class="popup-edit-avatar-link">СМЕНИТЬ АВАТАР</a>
+        </div> <!-- /.popup-edit-avatar -->
+
+        <form action="" class="popup-edit-form">
+          <div class="form-row c">
+            <label for="" class="l">Name</label>
+            <input type="text" class="l" name="" id="" placeholder="Ivanova Irigna">
+          </div>
+          <div class="form-row c">
+            <label for="" class="l">Name</label>
+            <input type="text" class="l" name="" id="" placeholder="Ivanova Irigna">
+          </div>
+          <div class="form-row c">
+            <label for="" class="l">Name</label>
+            <input type="text" class="l" name="" id="" placeholder="Ivanova Irigna">
+          </div>
+
+          <fieldset>
+            <legend><i class="icon icon-legend-contacts"></i>Contacts info</legend>
+
+            <div class="form-row c">
+              <label for="" class="l">Name</label>
+              <input type="text" class="l" name="" id="" placeholder="Ivanova Irigna">
+            </div>
+            <div class="form-row c">
+              <label for="" class="l">Name</label>
+              <input type="text" class="l small" name="" id="" placeholder="Ivanova Irigna">
+            </div>
+            <div class="form-row c">
+              <label for="" class="l">Name</label>
+              <div class="input-wrap l">
+                <select name="" id="">
+                  <option value="">Male</option>
+                  <option value="">Female</option>
+                </select>
+              </div> <!-- /.input-wrap -->
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend><i class="icon icon-legend-home"></i>Contacts info</legend>
+
+            <div class="form-row c">
+              <label for="" class="l">Name</label>
+              <div class="input-wrap l">
+                <select name="" id="">
+                  <option value="">Male</option>
+                  <option value="">Female</option>
+                </select>
+              </div> <!-- /.input-wrap -->
+            </div>
+            <div class="form-row c">
+              <label for="" class="l">Name</label>
+              <input type="text" class="l tiny" name="" id="" placeholder="Ivanova Irigna">
+            </div>
+            <div class="form-row c">
+              <label for="" class="l">Name</label>
+              <input type="text" class="tiny" name="" id="" placeholder="Ivanova Irigna"> /
+              <input type="text" class="tiny" name="" id="" placeholder="Ivanova Irigna">
+            </div>
+          </fieldset>
+
+          <div class="popup-edit-form-errors">
+            <div class="error">НЕПРАВИЛЬНЫЙ АДРЕС ПОЧТЫ</div>
+          </div>
+
+          <div class="form-row submit-row c">
+            <a href="" class="cancel-link">ОТМЕНИТЬ</a>
+            <button type="submit">СОХРАНИТЬ</button>
+          </div>
+        </form>
+      </div> <!-- /.popup-edit-inner -->
+    </div> <!-- /.popup-edit-inner-wrap -->
+  </div> <!-- /.popup -->
 
   <div class="page-wrapper">
     <header class="page-header">
@@ -275,6 +356,12 @@
   <script defer src="js/libs/tofsla_forms.js"></script>
 
   <script defer src="js/script.js"></script>
+
+  <script type="text/javascript">
+    $.fancybox('#popup2', {
+      closeBtn: false
+    });
+  </script> 
 
   <!--[if lt IE 7 ]>
     <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
