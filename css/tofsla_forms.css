@@ -86,6 +86,58 @@ button::-moz-focus-inner {border : 0px;}
 	text-decoration: none;
 }
 
+.order-form .tfSelectWrapper,
+.contacts-form .tfSelectWrapper {
+	background: #fff;
+	border: 1px solid #eee;
+	height: 30px;
+	margin-top: -1px;
+	line-height: 30px;
+	border-radius: 6px;
+}
+.order-form .tfSelectWrapper div span,
+.contacts-form .tfSelectWrapper div span {
+	background: none;
+	color: #999;
+	display: block;
+	margin-top: 8px;
+	font: italic 11px 'PTSans';
+}
+.order-form .tfSelectWrapper div a,
+.contacts-form .tfSelectWrapper div a {
+	background: url(../images/sprt.png) no-repeat -466px -51px;
+	height: 7px;
+	top: 10px;
+	right: 10px;
+	width: 12px;
+}
+
+.order-form .tfSelectWrapper ul,
+.contacts-form .tfSelectWrapper ul {
+	color: #999;
+	margin: 8px 0 0;
+	padding: 0;
+}
+.order-form .tfSelectWrapper ul a, .order-form .tfSelectWrapper ul a:hover,
+.contacts-form .tfSelectWrapper ul a {
+	font: italic 11px 'PTSans' !important;
+	color: #999;
+	padding: 5px !important;
+}
+.order-form .tfSelectWrapper ul a.selected, .order-form .tfSelectWrapper ul a:hover,
+.contacts-form .tfSelectWrapper ul a.selected, .contacts-form .tfSelectWrapper ul a:hover {
+	background: #ddd !important;
+}
+
+.contacts-form .tfSelectWrapper div span,
+.contacts-form .tfSelectWrapper ul a {
+	color: #b2b2b2 !important;
+	font: 15px 'PTSans' !important;
+}
+.contacts-form .tfSelectWrapper div span {
+	margin-top: 6px;
+	padding: 0 15px;
+}
 
 .popup-edit-form .tfSelectWrapper {
 	background: #fff;
@@ -116,6 +168,30 @@ button::-moz-focus-inner {border : 0px;}
 	width: 100px !important	;
 }
 
+.stats-form .tfSelectWrapper {
+	background: #fff;
+	border: 1px solid #000;
+	-webkit-box-sizing: border-box;
+}
+.stats-form .tfSelectWrapper div span {
+	background: none;
+	font: 15px 'FranklinGothic';
+	margin-top: 2px;
+	margin-left: -3px;
+}
+.stats-form .tfSelectWrapper div a {
+	background: url(../images/sprt.png) no-repeat -497px -112px;
+	height: 6px;
+	width: 12px;
+	top: 8px;
+	right: 8px;
+}
+.stats-form .tfSelectWrapper ul {
+	background: #000;
+	border-bottom: 1px solid #000;
+	margin: 0 0 0 -1px;
+	padding: 0;
+}
 
 * html .tfSelectWrapper ul { height: 108px; } /* IE6 hack */
 
@@ -181,11 +257,41 @@ select{ width:100px; background-color:white; border:1px solid #acacac; } /* for 
 
 
 /*== checkboxes ==*/
-.tfCheckboxWrapper{display:inline-block; vertical-align:baseline; position:relative; height:16px; width:15px; overflow:hidden; margin-right:2px; top:2px;}
-.tfCheckboxWrapper{zoom:1; *display: inline;}	/* IE6, IE7 hack */
-.tfCheckboxWrapper input{ position:absolute; left:-40px}
-.tfCheckbox {display: block; float:left; background: url(../images/checkbox_bg.png) no-repeat left top; width: 15px; height: 16px; cursor:pointer;}
-.tfCheckbox.tfChecked{ background-position:left -16px;  }
+.tfCheckboxWrapper{
+	display:inline-block;
+	vertical-align:baseline;
+	position:relative;
+	height:16px;
+	width:15px;
+	overflow:hidden;
+	margin-right:2px;
+	top:2px;
+}
+.tfCheckboxWrapper{
+	zoom:1;
+	*display: inline;
+	}	/* IE6, IE7 hack */
+.tfCheckboxWrapper input{
+	position:absolute;
+	left:-40px
+	}
+.tfCheckbox {
+	display: block;
+	float:left;
+	background: #fff;
+	width: 7px;
+	height: 7px;
+	cursor:pointer;
+	position: relative;
+	top: 7px;
+	left: 4px;
+	}
+.tfCheckbox.tfChecked{
+	background: #DC3D68;
+	border: 1px solid #fff;
+	height: 5px;
+	width: 5px;
+}
 
 
 /*== buttons ==*/

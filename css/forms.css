@@ -9,6 +9,15 @@ legend {
 	width: 100%;
 }
 
+.legend-hint {
+	color: #7F7F7F;
+	font: italic 11px 'PTSans';
+	margin-bottom: -38px;
+	position: relative;
+	top: -38px;
+	text-align: right;
+}
+
 .form-col {
 	width: 455px;
 }
@@ -23,6 +32,14 @@ legend {
 
 .order-form .submit-row {
 	text-align: right;
+}
+
+.promo-input {
+	background: #FFFADF;
+	border: none;
+	border-radius: 4px;
+	padding: 8px;
+	width: 110px;
 }
 
 .text-row {
@@ -60,6 +77,10 @@ textarea {
 
 .order-form input, .order-form textarea, .order-form select {
 	font: italic 11px 'PTSans';
+}
+
+.order-form select {
+	width: 140px;
 }
 
 input.big {
@@ -110,6 +131,11 @@ button, a.btn {
 button:hover, a.btn:hover {
 	opacity: 0.9;
 }
+button.giant, a.btn.giant {
+	padding: 10px 25px !important;
+	font: 18px 'Futuris' !important;
+	border-radius: 8px;
+}
 
 .input-radio-wrap {
 	width: 47%;
@@ -120,7 +146,9 @@ button:hover, a.btn:hover {
 		margin-top: 5px;
 		text-align: right;
 	}
-	
+	.input-radio-wrap .form-hint {
+		margin-left: 23px;
+	}
 
 .contacts-form {
 	margin-bottom: -230px;
@@ -148,6 +176,9 @@ button:hover, a.btn:hover {
 	.contacts-form textarea {
 		height: 300px;
 		width: 400px;
+	}
+	.contacts-form select {
+		width: 325px;
 	}
 
 	.contacts-form .submit-row, .faq-form .submit-row {
@@ -421,3 +452,16 @@ a.moneyback-form-change-quantity {
 		text-indent: -9999px;
 		width: 10px;
 	}
+
+.stats-form label {
+	font: 17px 'FranklinGothic';
+	position: relative;
+	top: 2px;
+}
+
+a.stats-form-alt-link {
+	color: #999;
+	font: 10px 'FranklinGothic';
+	text-decoration: underline;
+	margin-left: 10px;
+}
