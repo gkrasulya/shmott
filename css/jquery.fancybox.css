@@ -39,10 +39,11 @@
 	margin: 0;
 	position: relative;
 	outline: none;
+	overflow: hidden;
 }
 
 .fancybox-inner {
-	/*overflow: hidden;*/
+	overflow: hidden;
 }
 
 .fancybox-type-iframe .fancybox-inner {

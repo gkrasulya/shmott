@@ -31,8 +31,6 @@
 	margin: 60px 0 0 200px !important	;
 }
 
-
-
 .popup-edit {
 	background: none;
 	padding-top: 50px;
@@ -93,7 +91,7 @@
 	margin: 0 30px;
 }
 .popup-cart-title {
-	font: 19px 'Franklin Gothic';
+	font: 19px 'FranklinGothic';
 }
 .popup-cart .reserve-time {
 	margin: 15px 0 -40px 25px;

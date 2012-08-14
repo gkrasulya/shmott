@@ -2,23 +2,33 @@
 @import 'popup.css';
 
 @font-face {
-  font-family: 'PTSans';
-  src: url('../fonts/PTC55F-webfont.eot');
-  src: url('../fonts/PTC55F-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/PTC55F-webfont.woff') format('woff'),
-       url('../fonts/PTC55F-webfont.ttf') format('truetype'),
-       url('../fonts/PTC55F-webfont.svg#PTSansCaptionRegular') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'FranklinGothic';
+    src: url('../fonts/frg57.woff') format('woff'),
+         url('../fonts/frg57.ttf') format('truetype'),
+         url('../fonts/frg57.svg#franklingothicbookconditcRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 @font-face {
     font-family: 'Bodoni';
-    src: url('../fonts/bodonixt.woff') format('woff'),
-         url('../fonts/bodonixt.ttf') format('truetype'),
-         url('../fonts/bodonixt.svg#BodoniXTRegular') format('svg');
+    src: url('../fonts/bdn55___.woff') format('woff'),
+         url('../fonts/bdn55___.ttf') format('truetype'),
+         url('../fonts/bdn55___.svg#bodoniregular') format('svg');
     font-weight: normal;
     font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'PTSans';
+    src: url('../fonts/ptn57f.woff') format('woff'),
+         url('../fonts/ptn57f.ttf') format('truetype'),
+         url('../fonts/ptn57f.svg#pt_sans_narrowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
@@ -176,8 +186,10 @@ body {
   }
 
   .page-nav {
+    font: 13px 'FranklinGothic';
     line-height: 100%;
     margin: 9px 0 0 60px;
+    text-transform: uppercase;
   }
     .page-nav a {
       color: #fff;
@@ -244,11 +256,12 @@ body {
   a.page-contacts-content-question-link {
     background: url(../images/sprt.png) -188px 0 no-repeat;
     color: #fff;
-    font-size: 10px;
+    font: 10px 'FranklinGothic';
     display: inline-block;
     line-height: 140%;
     height: 22px;
     margin-top: -2px;
+    padding-top: 2px;
     padding-left: 5px;
     width: 55px;
   }
@@ -256,7 +269,7 @@ body {
       background-position: -188px -22px;
       height: 18px;
       margin-top: -6px;
-      padding-top: 4px;
+      padding-top: 5px;
     }
 
 .icon {
@@ -337,7 +350,7 @@ body {
 .ads-item {
   background: #000;
   color: #fff;
-  font-size: 11px;
+  font: 12px 'PTSans';
   height: 99px;
   margin-left: 20px;
   position: relative;
@@ -354,6 +367,7 @@ body {
 }
   .ads-item-title {
     border-bottom: 2px solid #dd3d69;
+    font: 16px 'FranklinGothic';
     margin: 7px 0 14px 7px;
     padding-bottom: 3px;
     width: 80%;
@@ -362,7 +376,9 @@ body {
     margin: 0 7px;
   }
   .ads-item-footer {
+    font-size: 10px !important;
     font-style: italic;
+    font-weight: bold;
   }
 .ads-item-footer {
   bottom: 5px;
@@ -455,7 +471,7 @@ body {
 
 h1 {
   color: #000;
-  font-size: 21px;
+  font: 21px 'FranklinGothic';
   position: relative;
   text-align: center;
 }
@@ -510,12 +526,12 @@ h1.blog.custom:before {
   width: 70px;
 }
 h1.moneyback:before {
-  background-position: -482px -112px;
-  top: -10px;
+  background-position: -482px -119px;
+  top: -3px;
 }
 
 h2 {
-  font: 19px 'FraklinGothic';
+  font: 19px 'FranklinGothic';
 }
 
 .heading-aside {
@@ -558,7 +574,7 @@ h2 {
   }
 
 .content-block {
- font-size: 16px; 
+ font: 16px 'PTSans'; 
  padding: 15px 15px 15px 50px;
  margin-bottom: 100px;
  position: relative;
@@ -652,6 +668,7 @@ h2 {
   margin-left: -20px;
 }
 .action-item {
+  font: 12px 'FranklinGothic';
   margin: 0 0 20px 20px;
   position: relative;
   text-align: center;
@@ -700,11 +717,14 @@ h2 {
   .action-item-time-left {
     background: url(../images/sprt.png?2) -249px -3px no-repeat;
     color: #fff;
+    font: 9px 'FranklinGothic';
     height: 32px;
+    line-height: 20px;
     font-size: 10px;
     margin: -67px 0 0 20px;
     padding-top: 7px;
     position: relative;
+    text-transform: uppercase;
     width: 180px;
   }
   .action-item-title {
@@ -712,6 +732,11 @@ h2 {
     margin-top: 40px;
     position: relative;
     text-transform: uppercase;
+  }
+  .action-item-hr {
+    border-top: 2px solid #DC3D68;
+    height: 2px;
+    margin: 5px 60px;
   }
   .action-item-description {
     color: #10005F;
@@ -826,7 +851,7 @@ h2 {
 
   .product-detail-tabs-tab {
     display: none;
-    font: 16px 'Bodoni';
+    font: 16px 'PTSans';
   }
 
 .product-detail-soc {
@@ -885,6 +910,7 @@ h2 {
 
 .cart-product-item .price {
   color: #4c4c4c;
+  font: 15px 'PTSans';
   margin: 10px 10px 0 0;
 }
 
@@ -923,7 +949,7 @@ h2 {
     text-transform: uppercase;
   }
   .order-info-item .text {
-    font: 11px 'PTSans';
+    font: 13px 'PTSans';
     margin-top: 4px;
   }
 
@@ -1121,7 +1147,7 @@ h2 {
     }
 
 .catalog-header-brand-text {
-  font: 11px 'PTSans';
+  font: 13px 'PTSans';
   margin-top: 5px;
 }
 
@@ -1163,7 +1189,7 @@ h2 {
 
 .invite-left-text {
   color: #dc3d68;
-  font: 21px 'FraklinGothic';
+  font: 21px 'FranklinGothic';
 }
 
 .invite-link {
@@ -1201,6 +1227,7 @@ h2 {
 
 .blog-item {
   cursor: pointer;
+  font: 13px 'PTSans';
   margin-top: 25px;
   position: relative;
   width: 450px;
@@ -1215,8 +1242,9 @@ h2 {
   }
   .blog-item-info {
     border-bottom: 1px solid #ccc;
-    font: 14px 'Franklin Gothic';
+    font: 14px 'FranklinGothic';
     padding-bottom: 6px;
+    margin-top: 2px;
     margin-bottom: 6px;
   }
   .blog-item-date {
@@ -1250,7 +1278,8 @@ h2 {
   }
   .blog-detail-text {
     color: #4c4c4c;
-    font: 14px 'PTSans';
+    font: 16px 'PTSans';
+    line-height: 135%;
     margin-top: 20px;
   }
 

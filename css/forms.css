@@ -44,7 +44,7 @@ legend {
 
 .text-row {
 	color: #4c4c4c;
-	font: 11px 'PTSans';
+	font: 13px 'PTSans';
 }
 	.text-row strong {
 		color: #7f7f7f;
@@ -325,7 +325,7 @@ label.custom-error {
 	border: 2px solid #fff;
 	border-radius: 5px;
 	color: #fff;
-	font: 9px 'PTSans';
+	font: 10px 'PTSans';
 	line-height: 150%;
 	padding: 8px 20px 8px 8px;
 	position: absolute;
