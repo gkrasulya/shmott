@@ -118,7 +118,7 @@ body {
 
 .page-header-enter-link {
   color: #fff;
-  font: 12px 'Futuris';
+  font: 12px 'PTSans';
   position: absolute;
   top: 81px;
   right: 39px;
@@ -555,7 +555,7 @@ h2 {
   }
   .reserve-time .time {
     color: #dc3d68;
-    font: 19px 'Futuris';
+    font: 19px 'PTSans';
     margin-left: 5px;
   }
 
